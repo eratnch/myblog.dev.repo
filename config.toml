@@ -1,6 +1,6 @@
 baseURL = "https://eratnch.github.io"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Ratnopam's Tech Chatter"
 theme = "hello-friend"
 paginate = 5
 
@@ -31,7 +31,7 @@ paginate = 5
     title = "My Tech Chatter"
     subtitle = "A blog for all my tech ramblings"
     keywords = ""
-    copyright = ""
+    copyright = "Ratnopam"
     menuMore = "Show more"
     writtenBy = "Written by"
     readMore = "Read more"
@@ -45,8 +45,8 @@ paginate = 5
     # lastModDisplay = ""
 
     [languages.en.params.logo]
-      logoText = "My Tech Chatter"
-      logoHomeLink = "/"
+      logoText = "cd /home/ratnopam"
+      logoHomeLink = ""
     # or
     #
     # path = "/img/your-example-logo.svg"
@@ -58,6 +58,6 @@ paginate = 5
         name = "About"
         url = "/about"
       [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags"
